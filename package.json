@@ -1,0 +1,17 @@
+{
+  "name": "ecomm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "devStart-b": "cd client && npm run build && cd .. && nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7"
+  }
+}

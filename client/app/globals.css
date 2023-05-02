@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(149, 94%, 20%);
+  --lightGreenBackground:hsl(146, 12%, 75%);
+  --lightGrayBackground:hsl(0, 0%, 72%);
+  --lightBrownBackground:hsla(43, 94%, 19%, 0.105);
+  --darkGreenBackground:hsl(148, 89%, 7%);
+  --darkGreenOpaqueBackground:hsla(148, 89%, 7%,.5);
+  --darkBrownBackground:hsl(54, 91%, 9%);
+  --darkBrownOpaqueBackground:hsla(54, 91%, 9%, .4);
+  --lightfontColor: hsl(42, 84%, 80%);
+  --darkFontColor: hsl(54, 91%, 9%);
+  --greenColor: #219500;
+}
+html{
+  background:var(--darkBrownBackground);
+  min-width: none;
+}
+
+body {
+  background:var(--lightGrayBackground);
+  color:var(--darkFontColor);
+  text-align: center;
+  /* overflow:hidden; */
+  padding-bottom:5rem;
+  color-scheme: only light;
+}
+

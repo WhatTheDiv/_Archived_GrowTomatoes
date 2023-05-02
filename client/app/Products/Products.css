@@ -1,0 +1,17 @@
+.container_products{
+  display:flex;
+  height:100%;
+  overflow:scroll;
+}
+@media screen and (max-width: 499px){
+  .container_products{
+    flex-direction:column;
+    padding:0 1rem;
+  }
+}
+@media screen and (min-width: 500px){
+  .container_products{
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,8 @@
+.addToCartButton{
+  box-shadow: 0px 0px 8px -3px var(--darkBrownBackground);
+  /* background:var(--darkBrownBackground); */
+  background: var(--lightfontColor);
+  padding: 2px 1rem;
+  border-radius:2rem;
+  cursor:pointer;
+}

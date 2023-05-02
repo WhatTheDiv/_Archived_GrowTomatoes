@@ -1,0 +1,13 @@
+.container_logo{
+  /* background:white; */
+  /* border:1px solid red; */
+
+  position:relative;
+  width:120px;
+  overflow:show;
+}
+.container_logo img{
+  position:absolute;
+  top:-40px;
+  /* filter:brightness(80%); */
+}

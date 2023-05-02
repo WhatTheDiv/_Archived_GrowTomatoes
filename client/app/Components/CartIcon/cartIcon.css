@@ -1,0 +1,18 @@
+.cartIcon{
+  filter:invert(100%);
+  cursor:pointer;
+  height:auto;
+  width:auto;
+  
+}
+
+@media screen and ( max-width: 499px ){
+  .cartIcon{
+    margin:0 1rem;
+  }
+}
+@media screen and ( min-width: 500px ){
+  .cartIcon{
+    margin:0 1rem 0 3rem;
+  }
+}
