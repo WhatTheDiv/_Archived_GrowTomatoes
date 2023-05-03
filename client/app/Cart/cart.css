@@ -15,7 +15,7 @@
   font-weight:bold;
 }
 .cart_items{
-  background:red;
+  /* background:red; */
   display:inline-block; 
   margin-right:1rem;
 }

@@ -49,9 +49,6 @@ export default function CartPage(){
           <span>Subtotal:</span>
           <span>${sum.toFixed(2)}</span>
         </div>
-        <div className='cart_payment2'>
-        something
-      </div>
       </div>
       
       <div className="cart_totals">
